@@ -123,7 +123,7 @@ class MainActivity : ComponentActivity() {
     setContent {
       Column(
         modifier = Modifier
-          .fillMaxSize()
+          .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
       ) {
         Box(
